@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f6f6;
+  color: #333;
+}
+
+header {
+  background: #2a9d8f;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Homestays Section */
+.homestays {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.homestay {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 350px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.homestay img {
+  width: 100%;
+  height: auto;
+}
+
+.details {
+  padding: 1.2rem;
+}
+
+.details h2 {
+  margin-top: 0;
+  color: #2a9d8f;
+}
+
+.details p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0.5rem 0;
+}
+
+.facilities {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.facilities li {
+  background: #e9ecef;
+  padding: 0.4rem 0.6rem;
+  margin-bottom: 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  background: #264653;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
